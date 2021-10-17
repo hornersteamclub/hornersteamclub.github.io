@@ -93,3 +93,9 @@ footer {
         display: block;
     }
 }
+
+@media screen and (max-width: 900px) {
+    footer {
+        display: none;
+    }
+}
