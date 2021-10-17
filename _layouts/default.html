@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {%- include head.html -%}
+
+    <title>{{ page.title }} | Horner STEAM Club</title>
+</head>
+
+<body>
+    <header>
+        <img src = "/assets/images/hornerhornet.png" alt = "profile">
+        <h1>Horner STEAM Club</h1>
+        <nav>
+            {% for page in site.data.navigation %}
+	            <a href = "{{ page.link | relative_url }}">{{ page.name }}</a>
+            {% endfor %}
+	    </nav>
+    </header>
+    <main>
+	{% if page.center == true %}
+        <div style = "text-align: center;">
+            {{ content }}
+        </div>
+    {% else %}
+        {{ content }}
+    {% endif %}
+    </main>
+    <footer>
+        <p>Site design by <a href = "https://theaarushgupta.com">Aarush Gupta</a></p>
+        <p>Copyright &copy; 2021 Aarush Gupta and Horner STEAM Club. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

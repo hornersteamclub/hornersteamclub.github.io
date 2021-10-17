@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Previous Work
+  link: /previous-work
+- name: Leadership
+  link: /leadership
+- name: Github
+  link: https://github.com/hornersteamclub

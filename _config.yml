@@ -1,0 +1,8 @@
+baseurl: ""
+permalink: /posts/:year/:month/:day/:title
+
+title: Aarush Gupta
+email: hello@theaarushgupta.com
+
+excerpt_seperator: <!-- more -->
+markdown: kramdown

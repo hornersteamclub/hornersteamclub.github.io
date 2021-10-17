@@ -1,0 +1,10 @@
+---
+permalink: /404.html
+layout: default
+title: Not Found
+center: true
+---
+
+# Request returned a 404 Not Found
+
+That's quite a bummer -- you might want to check with the source that sent you here for incorrect links.
