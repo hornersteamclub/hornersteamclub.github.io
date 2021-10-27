@@ -1,0 +1,10 @@
+/* variable definitions for cute.css (https://github.com/0x44RU5H/cute.css) */
+
+:root {
+    --cute-text: #ffffff;
+    --cute-background: #151D21;
+    --cute-background-accent: #000000;
+    --cute-accent: #ee9d01;
+    --cute-accent-dark: #c98302;
+    --cute-accent-greyscale: #adadad;
+}
