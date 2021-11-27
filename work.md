@@ -12,4 +12,4 @@ title: Previous Work
 
 {% endfor %}
 
-Check out more experiences at [our GitHub](https://github.com/hornersteamclub).
+Check out more of our work on [our GitHub](https://github.com/hornersteamclub).
